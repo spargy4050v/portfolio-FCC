@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Personal Portfolio Webpage</title>
+    <title>Rishith Kumar Guntuka - Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
   <body>
     <header>
@@ -25,48 +26,85 @@
     <main>
       <section id="welcome-section" class="welcome-section">
         <h1>Hi there, <br> I'm Rishith Kumar Guntuka</h1>
-        <p>Web developer & Tech Enthusiat</p>
+        <p> Enthusiastic second-year BTech CSE student skilled in frontend development with React, Next.js,
+            TypeScript, and JavaScript. Experienced in building responsive, user-friendly web applications like Tic
+            Tac Toe and NutriScan, with a focus on rapid prototyping and performance optimization. Proficient in
+            HTML, CSS, Git, and Tailwind CSS, eager to contribute to digital infrastructure and AI-integrated
+            workflows.
+        </p>
+        
+        <!-- Skills and Interests Container -->
+        <div class="skills-interests-container">
+          <div class="skills-section">
+            <h3>Skills & Technologies</h3>
+            <ul class="skills-list">
+              <li>React & Next.js</li>
+              <li>TypeScript</li>
+              <li>JavaScript</li>
+              <li>HTML5 & CSS3</li>
+              <li>Tailwind CSS</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+          
+          <div class="interests-section">
+            <h3>Interests & Hobbies</h3>
+            <ul class="interests-list">
+              <li>AI & Machine Learning</li>
+              <li>Web Development</li>
+              <li>Open Source</li>
+              <li>Gaming</li>
+              <li>Problem Solving</li>
+              <li>Innovation</li>
+            </ul>
+          </div>
+        </div>
       </section>
+      
       <section id="projects" class="projects-section">
         <h2>The projects I worked on!</h2>
-        <a href="" target="_blank" class="project project-tile">
-          <img src="https://i.postimg.cc/qv19HS8S/image.png">
-          <p class="project-tile">Product Landing Page</p>
-          <a href="" target="_blank" class="project project-tile">
-          <img src="https://i.postimg.cc/VLxJBZry/image.png">
-          <p class="project-tile">Tribute Page</p>
-        </a>
-        <a href="" target="_blank" class="project project-tile">
-          <img src="https://i.postimg.cc/y65xspTJ/image.png">
-          <p class="project-tile">Technical Documentation Page</p>
-        </a>
-        <a href="" target="_blank" class="project project-tile">
-          <img src="https://i.postimg.cc/6TJBRSHY/image.png">
-          <p class="project-tile">Survey Form</p>
-        </a>
-        <a id="profile-link" href="https://github.com/spargy4050v" target="_blank">View More</a>
+        <div class="projects-grid">
+          <a href="https://spargy4050v.github.io/prod-land-FCC/" target="_blank" class="project">
+            <img src="https://i.postimg.cc/qv19HS8S/image.png" alt="Product Landing Page">
+            <p class="project-tile">Product Landing Page</p>
+          </a>
+          <a href="https://spargy4050v.github.io/rdj-tribute-FCC/" target="_blank" class="project">
+            <img src="https://i.postimg.cc/VLxJBZry/image.png" alt="Tribute Page">
+            <p class="project-tile">Tribute Page</p>
+          </a>
+          <a href="https://spargy4050v.github.io/tech-doc-FCC/" target="_blank" class="project">
+            <img src="https://i.postimg.cc/y65xspTJ/image.png" alt="Technical Documentation">
+            <p class="project-tile">Technical Documentation Page</p>
+          </a>
+          <a href="https://spargy4050v.github.io/survey-form-FCC/" target="_blank" class="project">
+            <img src="https://i.postimg.cc/6TJBRSHY/image.png" alt="Survey Form">
+            <p class="project-tile">Survey Form</p>
+          </a>
+        </div>
+        <a id="profile-link" href="https://github.com/spargy4050v" target="_blank">View More on GitHub</a>
       </section>
+      
       <section id="contact" class="contact-section">
         <div>
           <h2>Wanna Collaborate with me?</h2>
           <p>Let's Catch Up</p>
         </div>
-        <div>
+        <div class="social-links">
           <a href="https://www.linkedin.com/in/rishithkumarguntuka" target="_blank" rel="noopener noreferrer">
-  <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width: 32px; height: 32px;">
-</a>
+            <i class="fab fa-linkedin"></i>
+          </a>
           <a href="https://github.com/spargy4050v" target="_blank" rel="noopener noreferrer">
-  <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" style="width: 32px; height: 32px;">
-</a>
-          <a href="mailto:your_email@example.com?subject=Hello&body=I%20wanted%20to%20reach%20out%20to%20you." target="_blank" rel="noopener noreferrer">
-      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" style="width: 32px; height: 32px;">
-    </a>
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:rishithkumarguntuka@gmail.com?subject=Collaboration%20Opportunity&body=Hi%20Rishith%2C%0A%0AI%20would%20like%20to%20discuss%20a%20potential%20collaboration%20opportunity.%0A%0ABest%20regards" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-envelope"></i>
+          </a>
         </div>
       </section>
     </main>
     <footer>
-      <p>"Never let the Curiousity Die in YOU"</p>
-      <p>© 2024 Rishith Kumar Guntuka. All Rights Reserved.</p>
+      <p>"Never let the Curiosity Die in YOU"</p>
+      <p>© 2025 Rishith Kumar Guntuka. All Rights Reserved.</p>
     </footer>
   </body>
 </html>
